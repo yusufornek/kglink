@@ -9,6 +9,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  devIndicators: {
+    buildActivity: false,
+    buildActivityPosition: 'bottom-right',
+  },
+  experimental: {
+    // Development overlay'i tamamen kapat
+    optimizePackageImports: [],
+  },
 }
 
 export default nextConfig
