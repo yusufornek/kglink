@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const Header = async () => {
   const navbarItems = [
-    { href: "/", _title: "İletişim" },
+    { href: "/", _title: "Bağlantılar" },
     { href: "/manifesto", _title: "Manifesto" },
   ]
 
