@@ -51,11 +51,11 @@ export default function Manifesto() {
         </div>
 
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col gap-0.5 items-start">
-            <p className={clsx("text-slate-12 text-4xl font-medium italic transform -rotate-12", font.className)}>
+          <div className="flex flex-col gap-2 items-start">
+            <p className={clsx("text-slate-12 text-4xl font-medium italic transform -rotate-12 mb-3", font.className)}>
               Kanatlı Gençlik
             </p>
-            <p className="text-slate-11 text-sm font-medium">
+            <p className="text-slate-11 text-sm font-medium mt-2">
               Web Teknolojileri Geliştirme Ekibi
             </p>
             <p className="text-slate-10 text-xs italic mt-1">
