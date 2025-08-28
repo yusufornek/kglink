@@ -56,8 +56,13 @@ export default function Manifesto() {
               Kanatlı Gençlik
             </p>
             <p className="text-slate-11 text-sm font-medium">
-              Web Teknolojileri Geliştirme Ekibi{" "}
-              <span className="text-slate-10 text-xs">Gönüllü Geliştirici Topluluğu</span>
+              Web Teknolojileri Geliştirme Ekibi
+            </p>
+            <p className="text-slate-10 text-xs italic mt-1">
+              Teknoloji ile geleceği şekillendiren
+            </p>
+            <p className="text-slate-10 text-xs">
+              Gönüllü Geliştirici Topluluğu
             </p>
           </div>
         </div>
