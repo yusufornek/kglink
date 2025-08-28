@@ -58,9 +58,6 @@ export default function Manifesto() {
             <p className="text-slate-11 text-sm font-medium mt-2">
               Web Teknolojileri Geliştirme Ekibi
             </p>
-            <p className="text-slate-10 text-xs italic mt-1">
-              Teknoloji ile geleceği şekillendiren
-            </p>
             <p className="text-slate-10 text-xs">
               Gönüllü Geliştirici Topluluğu
             </p>
