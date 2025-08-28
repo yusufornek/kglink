@@ -100,4 +100,19 @@ body:has(html:not(:last-child)) {
   outline-color: theme("colors.slate.12");
 }
 
+/* Next.js Development Indicator'ı tamamen gizle */
+div[data-nextjs-dev-indicator] {
+  display: none !important;
+}
+
+/* Next.js build activity indicator'ı gizle */
+div[style*="position: fixed"][style*="bottom:"][style*="right:"] {
+  display: none !important;
+}
+
+/* Next.js dev overlay'i gizle */
+nextjs-portal {
+  display: none !important;
+}
+
 

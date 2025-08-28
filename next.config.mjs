@@ -13,6 +13,13 @@ const nextConfig = {
     buildActivity: false,
     buildActivityPosition: 'bottom-right',
   },
+  webpack: (config, { dev }) => {
+    // Development indicator'ı tamamen kapat
+    if (dev) {
+      config.devtool = false;
+    }
+    return config;
+  },
   experimental: {
     // Development overlay'i tamamen kapat
     optimizePackageImports: [],
