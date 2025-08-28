@@ -22,10 +22,11 @@ export const metadata = {
   title: "Kanatlı Gençlik",
   description: "Kanatlı Gençlik - Havacılık tutkusu ve teknoloji sevgisiyle hareket eden gençlik topluluğu",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/images/kg-logo.png",
+    apple: "/images/kg-logo.png",
+    shortcut: "/images/kg-logo.png",
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
