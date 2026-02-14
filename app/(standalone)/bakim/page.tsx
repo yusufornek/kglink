@@ -78,24 +78,7 @@ export default function Bakim() {
           className="rounded-full mb-14"
         />
 
-        {/* Headline */}
-        <h1
-          className={clsx(
-            "text-[clamp(2.8rem,9vw,5rem)] leading-[1.05] text-white text-center mb-5 italic",
-            instrumentSerif.className
-          )}
-        >
-          Kanatlı Gençlik
-        </h1>
-
-        <p
-          className="text-[11px] uppercase tracking-[0.35em] font-medium mb-16 text-center"
-          style={{ color: "#5a6a72" }}
-        >
-          Web Teknolojileri Geliştirme Ekibi
-        </p>
-
-        {/* Body */}
+        {/* Body — duyuru metni */}
         <div className="max-w-[400px] w-full space-y-5 mb-16">
           <p className="text-[15px] leading-[1.85] text-center text-pretty" style={{ color: "#c2c2c2" }}>
             Uzun süredir üzerinde çalıştığımız yeni dijital platformumuzu
@@ -116,8 +99,25 @@ export default function Bakim() {
           Platformumuz kısa süreli olarak bakım modundadır.
         </p>
 
-        <p className="text-white text-[15px] text-center tracking-tight">
+        <p className="text-white text-[15px] text-center tracking-tight mb-16">
           Çok yakında yeniden buradayız.
+        </p>
+
+        {/* Branding */}
+        <h1
+          className={clsx(
+            "text-[clamp(2.8rem,9vw,5rem)] leading-[1.05] text-white text-center mb-5 italic",
+            instrumentSerif.className
+          )}
+        >
+          Kanatlı Gençlik
+        </h1>
+
+        <p
+          className="text-[11px] uppercase tracking-[0.35em] font-medium text-center"
+          style={{ color: "#5a6a72" }}
+        >
+          Web Teknolojileri Geliştirme Ekibi
         </p>
       </div>
     </div>
