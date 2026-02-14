@@ -73,19 +73,19 @@ export default function Bakim() {
         <Image
           src="/images/kg-logo.png"
           alt="Kanatlı Gençlik"
-          width={68}
-          height={68}
+          width={96}
+          height={96}
           className="rounded-full mb-14"
         />
 
         {/* Body — duyuru metni */}
         <div className="max-w-[400px] w-full space-y-5 mb-16">
-          <p className="text-[15px] leading-[1.85] text-center text-pretty" style={{ color: "#c2c2c2" }}>
+          <p className="text-[17px] leading-[1.85] text-center text-pretty" style={{ color: "#c2c2c2" }}>
             Uzun süredir üzerinde çalıştığımız yeni dijital platformumuzu
             sizlerle buluşturmaya hazırlanıyoruz.
           </p>
 
-          <p className="text-[15px] leading-[1.85] text-center text-pretty" style={{ color: "#c2c2c2" }}>
+          <p className="text-[17px] leading-[1.85] text-center text-pretty" style={{ color: "#c2c2c2" }}>
             Havacılığa dair güvenilir içerikler ve gelişmelerle; bilgi
             kirliliğinin önüne geçmeyi, genç zihinlere ilham olmayı ve
             gökyüzüne uzanan hayalleri hedeflere dönüştürmeyi amaçlıyoruz.
@@ -95,18 +95,18 @@ export default function Bakim() {
         {/* Separator */}
         <div className="w-8 h-px mb-8" style={{ background: "#2a2a2a" }} />
 
-        <p className="text-[13px] text-center mb-4" style={{ color: "#606060" }}>
+        <p className="text-[15px] text-center mb-4" style={{ color: "#606060" }}>
           Platformumuz kısa süreli olarak bakım modundadır.
         </p>
 
-        <p className="text-white text-[15px] text-center tracking-tight mb-16">
+        <p className="text-white text-[17px] text-center tracking-tight mb-16">
           Çok yakında yeniden buradayız.
         </p>
 
         {/* Branding */}
         <h1
           className={clsx(
-            "text-[clamp(2.8rem,9vw,5rem)] leading-[1.05] text-white text-center mb-5 italic",
+            "text-[clamp(1.8rem,6vw,2.5rem)] leading-[1.1] text-white text-center mb-4 italic",
             instrumentSerif.className
           )}
         >
@@ -114,7 +114,7 @@ export default function Bakim() {
         </h1>
 
         <p
-          className="text-[11px] uppercase tracking-[0.35em] font-medium text-center"
+          className="text-[12px] uppercase tracking-[0.3em] font-medium text-center"
           style={{ color: "#5a6a72" }}
         >
           Web Teknolojileri Geliştirme Ekibi
